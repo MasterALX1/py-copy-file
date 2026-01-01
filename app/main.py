@@ -1,6 +1,4 @@
 def copy_file(command: str) -> None:
-    if not command.startswith("cp "):
-        return
     try:
         command_parts = command.split(" ")
         if (
